@@ -25,7 +25,11 @@ book:
     - appendix-notes.qmd
     
 format:
-  html: 
+  html:
+    grid: 
+      body-width: 1300px
+    resources: 
+      - shinylive-sw.js
     theme: cosmo
     code-link: true
 
