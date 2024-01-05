@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tutorials.thecoatlessprofessor.com/quarto-book-template/index.html</loc>
-    <lastmod>2024-01-05T10:23:44.062Z</lastmod>
+    <loc>https://textbooks.thecoatlessprofessor.com/statistical-concepts-with-shiny-apps/index.html</loc>
+    <lastmod>2024-01-05T10:39:53.032Z</lastmod>
   </url>
   <url>
-    <loc>https://tutorials.thecoatlessprofessor.com/quarto-book-template/my-first-book.html</loc>
-    <lastmod>2024-01-05T10:23:44.066Z</lastmod>
+    <loc>https://textbooks.thecoatlessprofessor.com/statistical-concepts-with-shiny-apps/my-first-book.html</loc>
+    <lastmod>2024-01-05T10:39:53.036Z</lastmod>
   </url>
   <url>
-    <loc>https://tutorials.thecoatlessprofessor.com/quarto-book-template/hello-world.html</loc>
-    <lastmod>2024-01-05T10:23:44.070Z</lastmod>
+    <loc>https://textbooks.thecoatlessprofessor.com/statistical-concepts-with-shiny-apps/hello-world.html</loc>
+    <lastmod>2024-01-05T10:39:53.040Z</lastmod>
   </url>
   <url>
-    <loc>https://tutorials.thecoatlessprofessor.com/quarto-book-template/appendix-notes.html</loc>
-    <lastmod>2024-01-05T10:23:44.074Z</lastmod>
+    <loc>https://textbooks.thecoatlessprofessor.com/statistical-concepts-with-shiny-apps/appendix-notes.html</loc>
+    <lastmod>2024-01-05T10:39:53.044Z</lastmod>
   </url>
 </urlset>

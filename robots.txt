@@ -1,1 +1,1 @@
-Sitemap: https://tutorials.thecoatlessprofessor.com/quarto-book-template/sitemap.xml
+Sitemap: https://textbooks.thecoatlessprofessor.com/statistical-concepts-with-shiny-apps/sitemap.xml
