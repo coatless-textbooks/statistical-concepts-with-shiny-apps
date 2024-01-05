@@ -1,5 +1,5 @@
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
   pull_request:
     branches: [main, master]
   push:
@@ -37,10 +37,10 @@ jobs:
       #    extra-packages: any::ggplot2, local::.
       
       # Download latest version of Python
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-          cache: 'pip'
+      #- uses: actions/setup-python@v4
+      #  with:
+      #    python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+      #    cache: 'pip'
       
       # Install jupyter via pip if it is not part of your requirements.txt
       # - name: "Install Jupyter Notebooks via Pip"
@@ -48,9 +48,9 @@ jobs:
       #     pip install jupyter 
       
       # Install python dependencies from requirements via pip
-      - name: "Install Python dependencies via Pip"
-        run: | 
-           pip install -r requirements.txt
+      #- name: "Install Python dependencies via Pip"
+      #  run: | 
+      #     pip install -r requirements.txt
 
       # Render the Quarto book using GitHub actions and publish
       # We are using the built-in {{GITHUB_PAT}} environment variable.
