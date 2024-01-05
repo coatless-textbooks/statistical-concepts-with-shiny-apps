@@ -15,11 +15,11 @@ book:
   sharing: [twitter, facebook, linkedin]
   chapters:
     - index.qmd
-    - part: my-first-book.qmd
-      chapters: 
-        - hello-world.qmd
-  appendices:
-    - appendix-notes.qmd
+  #  - part: my-first-book.qmd
+  #    chapters: 
+  #      - hello-world.qmd
+  #appendices:
+  #  - appendix-notes.qmd
     
 format:
   html:
