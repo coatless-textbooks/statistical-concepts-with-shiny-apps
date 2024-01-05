@@ -8,6 +8,7 @@ Sample shinylive app inside the textbook.
 
 ```{shinylive-r}
 #| standalone: true
+#| viewerHeight: 600
 # Load the shiny and ggplot2 packages
 library(shiny)
 library(ggplot2)
