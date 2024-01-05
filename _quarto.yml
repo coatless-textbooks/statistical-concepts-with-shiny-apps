@@ -6,10 +6,7 @@ book:
   title: "Interactive Statistics: Exploring Data with Shiny Applications"
   author: "JJB"
   description: | 
-    Embark on a dynamic and engaging journey through the world of statistics
-    with our innovative textbook, "Interactive Statistics: Exploring Data with Shiny Applications." 
-    This book is designed to allow students to explore statistical ideas by 
-    leveraging the power of Shiny applications.
+    Get ready to see Statistics like never before with live Shiny apps!
   #cover-image: images/cover.png
   site-url: https://textbooks.thecoatlessprofessor.com/statistical-concepts-with-shiny-apps/
   repo-url: https://github.com/coatless-textbooks/statistical-concepts-with-shiny-apps/
