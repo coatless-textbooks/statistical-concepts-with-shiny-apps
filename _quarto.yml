@@ -3,13 +3,16 @@ project:
   output-dir: _book
   
 book:
-  title: "Title of Next Bestseller"
+  title: "Interactive Statistics: Exploring Data with Shiny Applications"
   author: "JJB"
   description: | 
-    TBA
+    Embark on a dynamic and engaging journey through the world of statistics
+    with our innovative textbook, "Interactive Statistics: Exploring Data with Shiny Applications." 
+    This book is designed to allow students to explore statistical ideas by 
+    leveraging the power of Shiny applications.
   #cover-image: images/cover.png
-  site-url: https://tutorials.thecoatlessprofessor.com/quarto-book-template
-  repo-url: https://github.com/coatless-tutorials/quarto-book-template
+  site-url: https://textbooks.thecoatlessprofessor.com/statistical-concepts-with-shiny-apps/
+  repo-url: https://github.com/coatless-textbooks/statistical-concepts-with-shiny-apps/
   repo-branch: main
   repo-actions: [edit]
   sharing: [twitter, facebook, linkedin]
@@ -25,3 +28,7 @@ format:
   html: 
     theme: cosmo
     code-link: true
+
+# Enable the shinylive filter by default
+filters:
+  - shinylive
