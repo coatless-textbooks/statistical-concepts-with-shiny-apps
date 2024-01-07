@@ -28,3 +28,4 @@ vignettes/*.pdf
 .Renviron
 /.quarto/
 _book
+.DS_Store
