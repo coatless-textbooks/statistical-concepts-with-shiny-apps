@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://textbooks.thecoatlessprofessor.com/statistical-concepts-with-shiny-apps/index.html</loc>
-    <lastmod>2024-01-07T07:19:02.678Z</lastmod>
+    <lastmod>2024-01-07T07:20:48.239Z</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.thecoatlessprofessor.com/statistical-concepts-with-shiny-apps/part-1-into-the-data-verse.html</loc>
+    <lastmod>2024-01-07T07:20:48.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.thecoatlessprofessor.com/statistical-concepts-with-shiny-apps/hello-data-world-example.html</loc>
+    <lastmod>2024-01-07T07:20:48.247Z</lastmod>
   </url>
 </urlset>

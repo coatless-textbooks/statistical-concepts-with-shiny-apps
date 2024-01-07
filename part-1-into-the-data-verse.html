@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="JJB">
 <meta name="description" content="Get ready to see Statistics like never before with live Shiny apps!">
 
-<title>Interactive Statistics: Exploring Data with Shiny Applications</title>
+<title>Interactive Statistics: Exploring Data with Shiny Applications - Part 1: Into the Dataverse</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./part-1-into-the-data-verse.html" rel="next">
+<link href="./hello-data-world-example.html" rel="next">
+<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -42,11 +42,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<meta name="shinylive:serviceworker_dir" content=".">
-<script src="site_libs/quarto-contrib/shinylive-0.2.3/shinylive/load-shinylive-sw.js" type="module"></script>
-<script src="site_libs/quarto-contrib/shinylive-0.2.3/shinylive/run-python-blocks.js" type="module"></script>
-<link href="site_libs/quarto-contrib/shinylive-0.2.3/shinylive/shinylive.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/shinylive-quarto-css/shinylive-quarto.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -80,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Welcome</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./part-1-into-the-data-verse.html">Part 1: Into the Dataverse</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -133,13 +128,13 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./part-1-into-the-data-verse.html" class="sidebar-item-text sidebar-link">
+            <a href="./part-1-into-the-data-verse.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Part 1: Into the Dataverse</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -160,37 +155,20 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/coatless-textbooks/statistical-concepts-with-shiny-apps/edit/main/index.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Interactive Statistics: Exploring Data with Shiny Applications</h1>
+<h1 class="title"><span id="into-the-dataverse" class="quarto-section-identifier">Part 1: Into the Dataverse</span></h1>
 </div>
 
-<div>
-  <div class="description">
-    <p>Get ready to see Statistics like never before with live Shiny apps!</p>
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>JJB </p>
-          </div>
-  </div>
     
   
     
@@ -199,142 +177,9 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="welcome">Welcome</h2>
-<p>Embark on a dynamic and engaging journey through the world of statistics with our innovative textbook, “Interactive Statistics: Exploring Data with Shiny Applications.” This book is designed to allow students to explore statistical ideas by leveraging the power of Shiny applications.</p>
-<p>Sample shinylive app inside the textbook.</p>
-<pre class="shinylive-r" data-engine="r"><code>#| standalone: true
-#| viewerHeight: 600
-# Load the shiny and ggplot2 packages
-library(shiny)
-library(ggplot2)
-
-# Define the UI
-ui &lt;- fluidPage(
-  titlePanel("Interactive Graph with Linear Regression"),
-  
-  fluidRow(
-    column(
-      # Two sliders to adjust the x and y axis ranges
-      sliderInput("xrange", "X-axis range", min = -10, max = 10, value = c(-5, 5)),
-      sliderInput("yrange", "Y-axis range", min = -10, max = 10, value = c(-5, 5)),
-      # A button to reset the data
-      actionButton("reset", "Reset Data"),
-      width = 3
-    ),
-    column(
-      # A plot output to display the graph
-      plotOutput("plot", click = "plot_click"),
-      width = 6),
-    column(
-      # A table output to display the statistics
-      tableOutput("stats"),
-      # A text output to display the model equation
-      textOutput("model"), width = 3)
-  )
-)
-
-# Define the server
-server &lt;- function(input, output, session) {
-  
-  # A reactive value to store the data frame
-  values &lt;- reactiveValues(data = NULL)
-  
-  empty_dataframe &lt;- function() { data.frame(x = numeric(), y = numeric()) }
-  # Initialize an empty data frame 
-  observe({
-    values$data &lt;- empty_dataframe()
-  })
-  
-  # Update the data frame when the user clicks on the plot
-  observeEvent(input$plot_click, {
-    # Get the coordinates of the click
-    x &lt;- input$plot_click$x
-    y &lt;- input$plot_click$y
-    # Add a new row to the data frame
-    values$data &lt;- rbind(values$data, data.frame(x = x, y = y))
-  })
-  
-  # Reset the data frame when the user clicks on the reset button
-  observeEvent(input$reset, {
-    values$data &lt;- empty_dataframe()
-  })
-  
-  # Render the plot output
-  output$plot &lt;- renderPlot({
-    # Create a ggplot object with the data
-    p &lt;- ggplot(values$data, aes(x = x, y = y)) +
-      geom_point(size = 3) +
-      xlim(input$xrange[1], input$xrange[2]) +
-      ylim(input$yrange[1], input$yrange[2]) +
-      labs(x = "X", y = "Y")
-    # If there is more than one point, add a linear regression line
-    if (nrow(values$data) &gt; 1) {
-      p &lt;- p + geom_smooth(method = "lm", se = FALSE)
-    }
-    # Return the plot object
-    p
-  })
-  
-  # Render the table output
-  output$stats &lt;- renderTable({
-    # If there is more than one point, calculate the statistics
-    if (nrow(values$data) &gt; 1) {
-      # Fit a linear model
-      model &lt;- lm(y ~ x, data = values$data)
-      # Get the correlation coefficient
-      rho &lt;- cor(values$data$x, values$data$y)
-      # Get the sum of squared residuals
-      ssr &lt;- sum(residuals(model)^2)
-      # Get the number of points
-      n &lt;- nrow(values$data)
-      # Get the mean of x and y
-      xbar &lt;- mean(values$data$x)
-      ybar &lt;- mean(values$data$y)
-      # Get the covariance between x and y
-      covxy &lt;- cov(values$data$x, values$data$y)
-      # Create a data frame with the statistics
-      stats &lt;- data.frame(
-        Statistic = c("Number of Points", "Mean of X", "Mean of Y", "Covariance between X and Y", "Correlation", "Sum of Squared Residuals"),
-        Value = c(n, xbar, ybar, covxy, rho, ssr)
-      )
-      # Return the data frame
-      stats
-    } else {
-      # Return an empty data frame
-      data.frame()
-    }
-  })
-  
-  # Render the text output
-  output$model &lt;- renderText({
-    # If there is more than one point, display the model equation
-    if (nrow(values$data) &gt; 1) {
-      # Fit a linear model
-      model &lt;- lm(y ~ x, data = values$data)
-      # Get the coefficients
-      a &lt;- coef(model)[1]
-      b &lt;- coef(model)[2]
-      # Get the R-squared
-      r2 &lt;- summary(model)$r.squared
-      # Format the equation
-      equation &lt;- paste0("y = ", round(a, 2), " + ", round(b, 2), "x")
-      # Format the R-squared
-      rsquared &lt;- paste0("R^2 = ", round(r2, 2))
-      # Return the text
-      paste0("Model Equation:\n", equation, "\n\n", "Coefficient of Determination:\n", rsquared)
-    } else {
-      # Return an empty text
-      ""
-    }
-  })
-}
-
-# Run the app
-shinyApp(ui = ui, server = server)</code></pre>
+<p>Within this portion, we’ll explore different properties of data.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -572,10 +417,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./part-1-into-the-data-verse.html" class="pagination-link">
-        <span class="nav-page-text">Part 1: Into the Dataverse</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./hello-data-world-example.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Hello Data World Example</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -583,4 +431,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/coatless-textbooks/statistical-concepts-with-shiny-apps/edit/main/part-1-into-the-data-verse.qmd" class="toc-action">Edit this page</a></p></div></div></div></div></footer></body></html>
