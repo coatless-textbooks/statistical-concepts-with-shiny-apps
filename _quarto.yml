@@ -15,9 +15,9 @@ book:
   sharing: [twitter, facebook, linkedin]
   chapters:
     - index.qmd
-  #  - part: my-first-book.qmd
-  #    chapters: 
-  #      - hello-world.qmd
+    - part: part-1-into-the-data-verse.qmd
+      chapters: 
+        - hello-data-world-example.qmd
   #appendices:
   #  - appendix-notes.qmd
     
