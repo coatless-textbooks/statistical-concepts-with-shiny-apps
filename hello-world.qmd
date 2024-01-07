@@ -1,3 +1,0 @@
-# The Hello World Example {#sec-hello-world}
-
-Hello Quarto World!
